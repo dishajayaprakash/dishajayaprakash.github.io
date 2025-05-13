@@ -1,0 +1,43 @@
+body {
+  font-family: 'Courier New', monospace;
+  background: #fafafa;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.centered {
+  max-width: 800px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
