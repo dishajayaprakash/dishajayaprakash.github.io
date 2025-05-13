@@ -138,3 +138,50 @@ html {
 .resume-btn:hover {
   opacity: 0.8;
 }
+
+.section {
+  padding: 4rem 1rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.card {
+  background-color: var(--card, #f9f9f9);
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 700px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.skills span {
+  display: inline-block;
+  margin: 0.4rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background-color: var(--bg);
+  font-size: 0.9rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.project-card {
+  flex: 1 1 250px;
+  background-color: var(--card, #f9f9f9);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+  max-width: 300px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
