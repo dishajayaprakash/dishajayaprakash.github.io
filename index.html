@@ -6,7 +6,6 @@
   <title>Shreyas Ganeshguru</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a2e0e6cfd4.js" crossorigin="anonymous"></script>
 </head>
@@ -19,11 +18,12 @@
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
+      <a href="assets/Resume.pdf" target="_blank" class="resume-btn">Resume</a>
       <button id="theme-toggle">🌙</button>
     </nav>
   </header>
 
-  <section class="profile-section">
+  <section class="profile-section" id="about">
     <div class="profile-image"></div>
     <h2 class="name">SHREYAS GANESHGURU</h2>
     <div class="tags">
@@ -39,6 +39,35 @@
       <a href="https://www.linkedin.com/in/shreyasganeshguru" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/shreyasganeshguru" target="_blank"><i class="fab fa-github"></i></a>
     </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2>🎓 Education</h2>
+    <p>MS in Computer Science – University of North Carolina at Charlotte</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>🛠 Skills</h2>
+    <ul>
+      <li>Python, JavaScript, SQL</li>
+      <li>TensorFlow, PyTorch, Scikit-learn</li>
+      <li>AWS, Azure, Docker, Git</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>🚀 Featured Projects</h2>
+    <ul>
+      <li><strong>LLM Chatbot</strong> – Built an LLM-powered chatbot with retrieval-augmented generation.</li>
+      <li><strong>Forecast Dashboard</strong> – Designed a BI dashboard to track prediction accuracy on AWS.</li>
+      <li><strong>AI Resume Matcher</strong> – Used NLP to match resumes with job descriptions.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>📬 Contact</h2>
+    <p>Open to full-time and freelance opportunities!</p>
+    <p>Email: <a href="mailto:sganeshg@uncc.edu">sganeshg@uncc.edu</a></p>
   </section>
 </body>
 </html>

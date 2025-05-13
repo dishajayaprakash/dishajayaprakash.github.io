@@ -115,3 +115,26 @@ nav a, #theme-toggle {
     gap: 0.5rem;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.resume-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  background-color: var(--accent);
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.resume-btn:hover {
+  opacity: 0.8;
+}
